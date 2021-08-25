@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios_JS</title>
+</head>
+<body>
+
+   <script>
+       'use strict'
+
+       // 3. Algoritmo que almacene el nombre de 10 alumnos y lo muestre por pantalla, sin ordenar y ordenado.
+
+       var $names = [];
+
+       for(var $i = 0; $i < 10; $i++) {
+           var $name = prompt("Introduce un nombre");
+           $names.push($name);
+       }
+
+       console.log("Sin ordenar: " + $names);
+       console.log("Ordenados: " + $names.sort());
+       
+
+   </script>
+    
+</body>
+</html>

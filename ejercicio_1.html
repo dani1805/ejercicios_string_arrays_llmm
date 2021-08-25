@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios_JS</title>
+</head>
+<body>
+
+   <script>
+       'use strict'
+
+       // 1. Hallar la media numérica de unos números introducidos por teclado. El usuario va a estar metiendo números hasta que diga que no quiere meter más.
+
+       var $sume = 0;
+       var $count = 0;
+
+       do {
+           var $number = parseInt(prompt("Escribe un número"));
+
+           if ($number != 0) {
+            $sume += $number;
+            $count++;
+           }
+       } while($number != 0);
+
+       var $media = $sume / $count;
+
+       console.log("La media es: " + $media);
+
+       // 2. Comprobar si una palabra es un palindromo: (ej: sometemos, arenera, oso, ojo).
+
+       // 3. Algoritmo que almacene el nombre de 10 alumnos y lo muestre por pantalla, sin ordenar y ordenado.
+
+   </script>
+    
+</body>
+</html>
